@@ -12,6 +12,8 @@ deploy:
   provider: heroku
   api_key:
     secure: "603e4a7a-c1fa-4fce-bfaa-364725402faf"
+  on:
+    branch: main
 
 env: 
   CI: false
