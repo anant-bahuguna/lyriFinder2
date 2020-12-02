@@ -11,7 +11,8 @@ deploy:
   provider: heroku
   api_key:
     secure: V64gOeeVs0NwE1hw2BsojPT4odgjmMoypGjfJJevvthKmPC/8NeevrenkcAkwU4afDoJ3D6yG4hYjF9HFpnHYwNlcwNThNQX+VXMdj38Ul7Y1cLLoX2fbs3Ug3lX6pN/snw8afpTk2LpAgGsJEMZUR7rwW/YDltIWewW4LRtq8CkgQ+sBLKxTutDHWI60k1OA3XwWJlnUlb1Y4YuNofsXoiSNUvKDKaqQhtgOVAx931caqUvy0Wh78QNEFd6GQOx/tXgy30UG2u5TDHkODH6CzQACnLzqP2xoKri3BQSqFsKdKjpMI4ogbV+KebPZoOqKaQDbcrDg6+/UiWXBoyX6j6chYDhK8/OZRm0iLGZWqoH9bHj53E3H5X/zJ+8ME7gDMW07H2fbIDC3856a48eJkfuSW9pJkiWg0mAuwGl/l/m/6G2PT1CawlDKt0xs5mphpUhaIvwrUCJaK9825Pr1wnBdiPmK9SBfT6sV1yCQ/XgEBtW4YE6j/NduOExvbQ4lRshf/WdPRQYqAHvqd3oMZy/i1CpzagIewOxvoLUU9w4Ja4wZwnEUmpinUXOIbad0kQhJKqlDvgu9vyYbsF2MgQGVa+OhTSX2fx+5CgXM0JauGOf0RoD9HvWqI9G0wikNb46wqZvd76tVsG5BnskOzWYC3xMHVCaBZgzqikTl+g=
-  on:
+  app: peaceful-falls-53042
+    on:
     branch: main
 env:
   CI: false
